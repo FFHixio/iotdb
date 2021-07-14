@@ -99,7 +99,7 @@
         <module>cluster</module>
         <module>cross-tests</module>
         <module>zeppelin-interpreter</module>
-        < modul > klien-py </ modu>
+        &lt; modul > klien-py 
     </modules>
     <!-- Properties Management -->
     <properties>
@@ -115,10 +115,10 @@
  snyk-fix-440605ff2e68d4b842f84da834c86e92 
         <logback.version>1.2.0</logback.version>
 =======
-        < logback.version > 1.2.3 </ logback.version >>>>>>>> master
+        &lt; logback.version > 1.2.3 >>>>>>> master
         <joda.version>2.9.9</joda.version>
         <spark.version>2.4.3</spark.version>
-        <flink.version>1.11.1</flink.version>
+        <flink.version>1.11.3</flink.version>
         <common.io.version>20030203.000550</common.io.version>
         <commons.collections4>4.4</commons.collections4>
         <!-- keep consistent with client-cpp/tools/thrift/pom.xml-->
@@ -141,7 +141,7 @@
         <felix.version>4.2.1</felix.version>
         <!-- URL of the ASF SonarQube server -->
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>apache</soar.organization>
+        <sonar.organization/>apache
         <!-- Exclude all generated code -->
         <sonar.exclusions>**/generated-sources</sonar.exclusions>
         <!-- By default, the argLine is empty-->
